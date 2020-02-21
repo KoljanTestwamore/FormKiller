@@ -1,0 +1,128 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: background-color 2s;
+    /* background: repeating-linear-gradient(
+        45deg,
+        #fff,
+        #fff 4px,
+        #000 4px,
+        #000 8px
+    ) */
+}
+
+button , .form-button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+button:hover , .form-button:hover {
+    background-color: #aaa;
+    cursor: pointer;
+}
+
+input {
+    width: 400px;
+}
+
+.main-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 30px;
+    width: 25rem;
+}
+
+.block-header {
+    font-size: 24px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.block-input {
+    font-size: 20px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+.block-inputcreator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0 30px;
+    width: 25rem;
+}
+
+.header {
+    order: 0;
+    font-size: 36px;
+}
+
+.submit-button {
+    order: 1;
+}
+
+.create-button {
+    background-color: #0a0a0a;
+    color: #fff;
+}
+
+.create-button:hover {
+    background-color: #777;
+}
+
+.button-container {
+    order: 1;
+}
+
+.cancel-icon {
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 15px 0 0 10px;
+    margin: 0;
+}
+
+.cancel-icon:hover {
+    color: #777;
+}
+
+.auth-tip-container {
+    padding-bottom: 10px;
+}
+
+.auth-tip-container a:link {
+    color:#000
+}
+
+.auth-tip-container a:visited {
+    color:#000
+}
+
+.form-notification {
+    position: fixed;
+    top:30%;
+    text-align: center;
+    order: 2;
+    font-size: 15rem;
+}
+
+.verify-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.verify-form .block-input {
+    margin: 10px;
+}
